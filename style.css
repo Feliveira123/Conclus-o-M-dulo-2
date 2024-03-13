@@ -1,7 +1,133 @@
 body {
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
     background-color: #2B0F30;
+    margin: auto;
+    width: 65rem;
+    border-radius: 9px;
+}
+
+.header-title {
+    color: #FECD23;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.header-subtitle1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 50px;
+}
+
+.header-subtitle2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.header-subtitle3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.elements-container {
+    background-color: #551A5F;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.elements-title {
+    color: white;
+    font-weight: 450;
+    padding: 10px;
+    font-size: 39px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+
+.poll-elements {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.poll1 { 
+    padding: 0.5rem;
+    background-color: #4F83F4;
+    margin: 20px 10px;
+    margin-top: 40px;
+    width: 20%;
+    border-width: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2835D0;
+}
+
+.poll2 { 
+    padding: 0.5rem;
+    background-color: #4F83F4;
+    margin: 20px 10px;
+    margin-top: 40px;
+    width: 20%;
+    border-width: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2835D0;
+}
+
+.poll3 { 
+    padding: 0.5em;
+    background-color: #4F83F4;
+    margin: 20px 10px;
+    margin-top: 40px;
+    width: 20%;
+    border-width: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2835D0;
+}
+
+.element-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 0.5rem;
+    text-align: center;
 }
